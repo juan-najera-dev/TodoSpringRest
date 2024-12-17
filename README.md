@@ -45,8 +45,8 @@ http://localhost:8080/api/tasks/
 
 ```json
 {
-  "titulo": "Test de la API",
-  "descripcion": "Check",
+  "title": "Test de la API",
+  "description": "Check",
   "status": false
 }
 ```
@@ -64,8 +64,8 @@ http://localhost:8080/api/tasks/5
 
 ```json
 {
-  "titulo": "Test de la API",
-  "descripcion": "Check",
+  "title": "Test de la API",
+  "description": "Check",
   "status": false
 }
 ```
