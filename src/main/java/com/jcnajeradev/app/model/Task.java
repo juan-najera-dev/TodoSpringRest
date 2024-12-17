@@ -2,7 +2,9 @@ package com.jcnajeradev.app.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Data
 @NoArgsConstructor
@@ -19,4 +21,5 @@ public class Task {
     public String description;
     @Column(name = "STATUS")
     public boolean status;
+
 }

@@ -1,7 +1,7 @@
 package com.jcnajeradev.app.controller;
 
 import com.jcnajeradev.app.model.Task;
-import com.jcnajeradev.app.service.TaskService;
+import com.jcnajeradev.app.service.ITaskService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -17,7 +17,7 @@ import java.util.stream.StreamSupport;
 public class TodoController {
 
     @Autowired
-    private TaskService service;
+    private ITaskService service;
 
     @PostMapping(value = "/")
     public ResponseEntity<?> create(@RequestBody Task task){
